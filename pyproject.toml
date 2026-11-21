@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marks-pkg"
+version = "0.1.0"
+description = "A Python package for calculating student internal marks, grades, and pass status"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["marks_pkg"]
